@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <main>
+
+        <h1 class="titulo">Pedra Papel Tesoura</h1>
+
+        <section class="partida">
+
+            <form class="jogador">
+
+                <h2>Jogador</h2>
+                <div class="img-ppt">
+                    <div class="ppt-input">
+                        <img src="img/pedra.png" alt="">
+                        <p> Pedra</p><input type="radio" name="ppt" id="pedra">
+                    </div>
+                    <div class="ppt-input">
+                        <img src="img/papel.png" alt="">
+                        <p> Papel</p><input type="radio" name="ppt" id="papel">
+                    </div>
+                    <div class="ppt-input">
+                        <img src="img/tesoura.png" alt="">
+                        <p> Tesoura</p><input type="radio" name="ppt" id="tesoura">
+                    </div>
+
+                </div>
+
+                </div>
+                <div class="buttons">
+                    <input type="button" value="JOGAR" onclick="jogar()">
+                    <input type="reset" value="LIMPAR" onclick="limpar()">
+                </div>
+            </form>
+            </div>
+
+            <div class="vs">
+                <h2>VS</h2>
+            </div>
+
+            <div class="computador">
+                <h2>Computador</h2>
+                <div class="img-pc">
+                    <img src="img/pc.png" id="pc">
+                </div>
+        </section>
+
+        <div class="placar">
+            <h2 id="placar">RESULTADO</h2>
+        </div>
+
+    </main>
+    <footer>
+        <h3>Feito por ALEJANDRO ORFANELLI SALGADO RODRIGUEZ</h3>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
