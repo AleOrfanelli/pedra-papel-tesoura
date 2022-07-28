@@ -1,6 +1,6 @@
 body {
     font-family: 'Press Start 2P', cursive;
-    background-color: rgb(245, 189, 255);
+    background-color: rgb(166, 137, 171);
 }
 
 .titulo {
@@ -174,4 +174,164 @@ body {
 footer>h3 {
     text-align: center;
     margin: 0;
+}
+
+@media (max-width: 1215px) {
+    #pc {
+        height: 190px;
+    }
+
+    .ppt-input {
+
+        width: 100px;
+        height: 100px;
+    }
+
+    .ppt-input>img {
+        width: 60px;
+
+    }
+
+    .ppt-input>p {
+        margin: 3px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 915px) {
+    #pc {
+        height: 190px;
+    }
+
+    .ppt-input {
+
+        width: 80px;
+        height: 80px;
+    }
+
+    .ppt-input>img {
+        width: 40px;
+
+    }
+
+    .ppt-input>p {
+        margin: 3px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 775px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 19px;
+    }
+
+    .jogador {
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: 25px;
+
+    }
+
+    .jogador>h2 {
+        transform: translateY(10px);
+    }
+
+    .img-ppt {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ppt-input {
+        transform: translateY(10px);
+        width: 70px;
+        height: 70px;
+    }
+
+    .ppt-input>img {
+        width: 30px;
+    }
+
+    .ppt-input>p {
+        margin: 3px;
+        font-size: 12px;
+    }
+
+    .computador {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .computador>h2 {
+        transform: translateY(-62px);
+    }
+
+    #pc {
+        height: 130px;
+        transform: translateY(-70px);
+    }
+
+    .buttons>input {
+        width: 60px;
+        font-size: 8px;
+    }
+
+    #placar {
+
+        padding: 24px;
+        width: 40%;
+        margin: 30px auto;
+
+    }
+
+    #placar-j {
+        padding: 13px;
+        width: 35%;
+        margin: 30px 30px;
+
+    }
+
+    #placar-pc {
+        padding: 13px;
+        width: 35%;
+        margin-left: 57%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    footer>h3 {
+        font-size: 11px;
+    }
+
+}
+
+@media (max-width: 540px) {
+    #pc {
+        height: 100px;
+        transform: translateY(-70px);
+    }
+
+    .computador>h2 {
+        font-size: 12px;
+    }
+
+    .jogador>h2 {
+        font-size: 12px;
+    }
+
+    #placar,
+    #placar-empate,
+    #placar-j,
+    #placar-pc,
+    footer>h3 {
+        transform: translateY(-30px);
+    }
+
 }
